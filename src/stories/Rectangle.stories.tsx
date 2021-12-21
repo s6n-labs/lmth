@@ -5,7 +5,7 @@ import { Rectangle } from '..';
 
 // noinspection JSUnusedGlobalSymbols
 export default {
-  title: 'Layout/Rectangle',
+  title: 'Components/Layout/Rectangle',
   component: Rectangle,
   argTypes: {
     fill: {
