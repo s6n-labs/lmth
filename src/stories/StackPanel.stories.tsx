@@ -5,7 +5,7 @@ import { Rectangle, StackPanel } from '..';
 
 // noinspection JSUnusedGlobalSymbols
 export default {
-  title: 'Layout/StackPanel',
+  title: 'Components/Layout/StackPanel',
   component: StackPanel,
   argTypes: {
   },

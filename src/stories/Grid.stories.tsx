@@ -5,7 +5,7 @@ import { Rectangle, Grid } from '..';
 
 // noinspection JSUnusedGlobalSymbols
 export default {
-  title: 'Layout/Grid',
+  title: 'Components/Layout/Grid',
   component: Grid,
   argTypes: {
   },
