@@ -7,7 +7,18 @@ export type RelativeLengthUnit = 'em' | 'ex' | 'ch' | 'rem' | 'lh' | 'vw' | 'vh'
 export type LengthUnit = AbsoluteLengthUnit | RelativeLengthUnit;
 export type Length = WithOrWithoutUnit<LengthUnit>;
 
+export type PercentageUnit = '%'
+export type Percentage = WithUnit<PercentageUnit>;
+
 export type FractionUnit = 'fr';
 export type Fraction = WithUnit<FractionUnit>;
+
+export type Size = Length | Percentage | 'fit-content';
+export type Sides = never
+  | [Size] // all
+  | [Size, Size] // vertical horizontal
+  | [Size, Size, Size] // top horizontal bottom
+  | [Size, Size, Size, Size] // top right bottom left
+;
 
 export type PositionInGrid = [number, number];
