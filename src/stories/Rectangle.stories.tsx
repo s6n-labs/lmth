@@ -26,3 +26,16 @@ Basic.args = {
   width: 300,
   height: 200,
 };
+
+export const Nested = Template.bind({});
+Nested.args = {
+  fill: 'pink',
+  width: 512,
+  height: 480,
+  padding: ['48px', '32px'],
+  children: (
+    <Rectangle
+      fill="blue"
+    />
+  ),
+};
