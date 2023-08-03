@@ -1910,7 +1910,7 @@ packages:
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
       json-source-map: 0.6.1
-      json5: 1.0.1
+      json5: 1.0.2
       micromatch: 4.0.4
       nullthrows: 1.1.1
       semver: 5.7.1
@@ -2545,7 +2545,7 @@ packages:
       fastest-levenshtein: 1.0.12
       is-glob: 4.0.3
       is-url: 1.2.4
-      json5: 1.0.1
+      json5: 1.0.2
       lru-cache: 6.0.0
       micromatch: 4.0.4
       node-forge: 0.10.0
@@ -8727,8 +8727,8 @@ packages:
     resolution: {integrity: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=}
     dev: true
 
-  /json5@1.0.1:
-    resolution: {integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==}
+  /json5@1.0.2:
+    resolution: {integrity: sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==}
     hasBin: true
     dependencies:
       minimist: 1.2.8
@@ -8861,7 +8861,7 @@ packages:
     dependencies:
       big.js: 5.2.2
       emojis-list: 3.0.0
-      json5: 1.0.1
+      json5: 1.0.2
     dev: true
 
   /loader-utils@2.0.0:
