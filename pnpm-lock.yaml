@@ -3661,7 +3661,7 @@ packages:
       file-system-cache: 1.0.5
       fs-extra: 9.1.0
       globby: 11.0.4
-      ip: 1.1.5
+      ip: 1.1.9
       lodash: 4.17.21
       node-fetch: 2.6.6
       pretty-hrtime: 1.0.3
@@ -3735,7 +3735,7 @@ packages:
       file-system-cache: 1.0.5
       fs-extra: 9.1.0
       globby: 11.0.4
-      ip: 1.1.5
+      ip: 1.1.9
       lodash: 4.17.21
       node-fetch: 2.6.6
       pretty-hrtime: 1.0.3
@@ -8230,8 +8230,8 @@ packages:
       loose-envify: 1.4.0
     dev: true
 
-  /ip@1.1.5:
-    resolution: {integrity: sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=}
+  /ip@1.1.9:
+    resolution: {integrity: sha512-cyRxvOEpNHNtchU3Ln9KC/auJgup87llfQpQ+t5ghoC/UhL16SWzbueiCsdTnWmqAWl7LadfuwhlqmtOaqMHdQ==}
     dev: true
 
   /ipaddr.js@1.9.1:
@@ -9974,9 +9974,6 @@ packages:
     resolution: {integrity: sha512-tGc7p3CbltlxYiu5u8NmFc2T5G3JZQDbKjlxDtjDpsNvLS6twX0Wu/D/HufaUKXyZr7O9JV7by3E+6DIo5cr5Q==}
     engines: {node: '>= 12.0.0'}
     hasBin: true
-    peerDependenciesMeta:
-      '@parcel/core':
-        optional: true
     dependencies:
       '@parcel/config-default': 2.0.1(@parcel/core@2.0.1)(acorn@8.6.0)
       '@parcel/core': 2.0.1
